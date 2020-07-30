@@ -1,10 +1,53 @@
 import React from "react";
-import Content from "./Content"
+import Content from "./Content";
+import Disciplina from "./Disciplina";
+
 function Materiale() {
     return (
-        <Content
-            title="Materiale"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam nulla porttitor massa id neque. Massa ultricies mi quis hendrerit. Adipiscing tristique risus nec feugiat in fermentum posuere urna. Imperdiet proin fermentum leo vel. Id cursus metus aliquam eleifend. Sit amet consectetur adipiscing elit. Convallis convallis tellus id interdum velit laoreet id. Dolor purus non enim praesent elementum facilisis. Nisl purus in mollis nunc sed. Auctor eu augue ut lectus arcu bibendum at varius vel. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla." />
+        <>
+            <Content
+                title="Materiale didactice"
+            />
+            <div className="container">
+                <div className="row rand">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 01" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 02" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 03" />
+                    </div>
+
+                </div>
+                <div className="row rand">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 04" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 05" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 06" />
+                    </div>
+
+                </div>
+                <div className="row rand">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 07" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 08" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <Disciplina title="Disciplina 09" />
+                    </div>
+
+                </div>
+            </div>
+
+        </>
 
     );
 }
