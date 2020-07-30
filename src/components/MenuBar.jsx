@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function MenuBar() {
     return (
@@ -8,13 +8,13 @@ function MenuBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                    <Nav.Link className="navLink" href="/home">Home</Nav.Link>
-                    <Nav.Link className="navLink" href="/stiri">Stiri si noutati</Nav.Link>
-                    <Nav.Link className="navLink" href="/educatie">Educatie</Nav.Link>
-                    <Nav.Link className="navLink" href="/materiale">Materiale didactice</Nav.Link>
-                    <Nav.Link className="navLink" href="/cercetare">Cercetare</Nav.Link>
-                    <Nav.Link className="navLink" href="/personal">Personal</Nav.Link>
-                    <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/">Home</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/stiri">Stiri si noutati</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/educatie">Educatie</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/materiale">Materiale didactice</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/cercetare">Cercetare</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/personal">Personal</Link></Nav.Link>
+                    <Nav.Link className="navLink" ><Link className="link" to="/contact">Contact</Link></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

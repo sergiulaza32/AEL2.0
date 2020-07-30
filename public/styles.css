@@ -20,6 +20,17 @@
     text-align: center;
 }
 
+.titlu-stire {
+    float: left;
+}
+
+.text-stire {
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    float: left;
+}
+
 .description {
     float: left;
 }
@@ -30,10 +41,24 @@
 
 .btn.btn-secondary {
     background-color: #C30000;
+    border: none
 }
 
 .btn.btn-secondary:hover {
     background-color: #B80000;
+}
+
+.btn.btn-primary {
+    background-color: #C30000;
+    border: none
+}
+
+.btn.btn-primary:hover {
+    background-color: #B80000;
+}
+
+.buton-stire {
+    float: right;
 }
 
 .carousel {
@@ -50,6 +75,16 @@
     background-color: #C30000;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     margin-left: 5px;
     margin-right: 5px;
@@ -60,6 +95,29 @@
 
 .jumbo.jumbotron.jumbotron-fluid {
     background-color: #D9D9D9;
+    padding: 20px;
+}
+
+.educatie-body.card-body {
+    border: 3px solid #B80000;
+    border-radius: 15px;
+    margin: 20px
+}
+
+.stire-body.card-body {
+    border-bottom: 3px solid #B80000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-educatie.card {
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.card-stire.card {
+    background-color: #D9D9D9;
+    border: none;
 }
 
 @media (max-width:992px) {
