@@ -9,7 +9,7 @@ function Materiale() {
                 title="Materiale didactice"
             />
             <div className="container">
-                <div className="row rand">
+                <div className="row justify-content-start rand">
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Disciplina title="Disciplina 01" />
                     </div>
@@ -19,9 +19,6 @@ function Materiale() {
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Disciplina title="Disciplina 03" />
                     </div>
-
-                </div>
-                <div className="row rand">
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Disciplina title="Disciplina 04" />
                     </div>
@@ -31,9 +28,6 @@ function Materiale() {
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Disciplina title="Disciplina 06" />
                     </div>
-
-                </div>
-                <div className="row rand">
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Disciplina title="Disciplina 07" />
                     </div>
@@ -45,6 +39,8 @@ function Materiale() {
                     </div>
 
                 </div>
+             
+               
             </div>
 
         </>
