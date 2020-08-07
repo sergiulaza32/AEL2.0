@@ -11,6 +11,7 @@ import Cercetare from "./Cercetare";
 import Personal from "./Personal";
 import Contact from "./Contact";
 import Licenta from "./Licenta";
+import Cursuri from "./Cursuri";
 function App() {
     return (
 
@@ -28,10 +29,11 @@ function App() {
                     <Route path="/stiri" component={Stiri} />
                     <Route path="/educatie" component={Educatie} />
                     <Route path="/materiale" component={Materiale} />
+                    <Route path="/cursuri" component={Cursuri}></Route>
                     <Route path="/cercetare" component={Cercetare} />
                     <Route path="/personal" component={Personal} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="/educatie/licenta" component={Licenta} />
+                    <Route path="/educatie/licenta" exact component={Licenta} />
                 </Switch>
             </Router>
 

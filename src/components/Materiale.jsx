@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "./Content";
 import Disciplina from "./Disciplina";
+import { Link } from "react-router-dom";
 
 function Materiale() {
     return (
@@ -11,36 +12,36 @@ function Materiale() {
             <div className="container">
                 <div className="row justify-content-start rand">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 01" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 02" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 03" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 04" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 05" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 06" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 07" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 08" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <Disciplina title="Disciplina 09" />
+                        <Link to="/cursuri"><Disciplina title="Disciplina 01" /></Link>
                     </div>
 
                 </div>
-             
-               
+
+
             </div>
 
         </>

@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 
 function MenuBar() {
     return (
-        <Navbar className="navbar" collapseOnSelect expand="lg" variant="dark">
+        <Navbar className="navbar " collapseOnSelect expand="lg" variant="dark">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                 <Nav>
                     <Nav.Link className="navLink" ><Link className="link" to="/">Home</Link></Nav.Link>
                     <Nav.Link className="navLink" ><Link className="link" to="/stiri">Stiri si noutati</Link></Nav.Link>
